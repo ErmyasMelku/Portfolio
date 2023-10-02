@@ -1,3 +1,25 @@
+--Takeaways from Data 
+
+/* 
+1. Paid apps have better ratings
+	- This could be because paid apps lead to higher engagement and perceived more value 
+    leading to better ratings 
+2. Apps supporting between 10 and 30 languages have better ratings
+	- The quantity of the languages doesn't matter as much instead it could be better to 
+    focus on choosing the right languages for your app
+3. Finance and Book apps have low ratings 
+	- Suggests that user needs in these two categories are not being fully met 
+    - Represents a market opportunity because if a quality app is created in these 
+    categories that address user needs better than the current apps; the potential for 
+    high user rating and market penetration 
+4. Apps with a longer description have better ratings 
+	- Users appreciate having a clear understanding of the app before they download 
+5. A New App Should Aim for an average rating above 3.5 
+6. Games and Entertainment have high completion 
+	- These two categories have a very high volume of apps suggesting that the market may be 
+    saturated but also suggest a high user demand in these sectors 
+*/
+
 CREATE TABLE appleStore_description_combined AS 
 
 SELECT * FROM appleStore_description1
@@ -111,26 +133,7 @@ from (
 WHere 
 a.rank = 1
 
---Takways from Data 
 
-/* 
-1. Paid apps have better ratings
-	- This could be becasuse paid apps lead to higher engagement and perceived more value 
-    leading to better ratings 
-2. Apps supporting between 10 and 30 languages have better ratings
-	- The Quantity of the languages doesn't matter as much instead it could be better to 
-    focus on choosing the right languages for your app
-3. Finance and Book apps have low ratings 
-	- Suggests that user needs in these two catagories are not being fully met 
-    - Represents a market opportunity becasue if a quality app is created in these 
-    catagories that adresses user needs better than the current apps; potential for 
-    high user rating and market penatration 
-4. Apps with a longer description have better ratings 
-	- Users appreciate having a clear understanding of the app before they download 
-5. A New App Should Aim for an average rating above 3.5 
-6. Games and Enterteinment have high completion 
-	- These two catagories have a very high volume of apps suggesting that the market may be 
-    saturated but also suggest a high user demand in these sectors 
 
 
 
