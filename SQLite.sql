@@ -18,6 +18,7 @@
 6. Games and Entertainment have high completion 
 	- These two categories have a very high volume of apps suggesting that the market may be 
     saturated but also suggest a high user demand in these sectors 
+
 */
 
 CREATE TABLE appleStore_description_combined AS 
