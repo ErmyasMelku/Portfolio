@@ -20,7 +20,6 @@
     saturated but also suggest a high user demand in these sectors 
 
 */
-###SQL Code
 
 CREATE TABLE appleStore_description_combined AS 
 
