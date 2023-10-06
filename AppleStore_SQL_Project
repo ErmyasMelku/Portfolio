@@ -38,8 +38,8 @@ UNION ALL
 select * from appleStore_description4
 
 
-**Exploratory Data Analysis(EDA)**
--- check the number of unquie apps in both tablesAppAppleStore
+** Exploratory Data Analysis(EDA) **
+-- Check the number of unique apps in both tablesAppAppleStore
 
 SELECT COUNT(DISTINCT id) AS UniqueAppIDs
 from AppleStore
@@ -71,6 +71,8 @@ min(user_rating) as MInRating,
 max(user_rating) as MaxRating,
 avg(user_rating) as AvgRating
 From AppleStore
+
+** Data Analysis **
 
 -- Determine whether paid apps have higher ratings than free appsAppleStore
 select CASE
